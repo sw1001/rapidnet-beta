@@ -1,0 +1,59 @@
+materialize(mutualTrustPath, -1, 0, keys(1, 2, 3)
+materialize(pQList, -1, 0, keys(1, 2)
+materialize(pResultTmp, -1, 0, keys(1, 2)
+materialize(prov, -1, 0, keys(1, 2, 3)
+materialize(rQList, -1, 0, keys(1, 2)
+materialize(rResultTmp, -1, 0, keys(1, 2)
+materialize(ruleExec, -1, 0, keys(1, 2)
+materialize(shaResult, -1, 0, keys(1, 2, 3)
+materialize(trust, -1, 0, keys(1, 2, 3)
+materialize(trustEvent, -1, 0, keys(1, 2, 3)
+materialize(trustPath, -1, 0, keys(1, 2, 3)
+prov_ra_1 etrustEventTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List) :- trustPath(@Local, P1, P2), PID1 := f_sha1(((((trustPath+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), RLOC := Local, RWeight := 1, R := ra, RID := f_sha1((R+ RLOC)+ List).
+prov_ra_2 ruleExec(@RLOC, RID, RWeight, R, List) :- etrustEventTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List).
+prov_ra_3 etrustEvent(@Local, P1, P2, RID, RWeight, RLOC) :- etrustEventTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List).
+prov_ra_4 trustEvent(@Local, P1, P2) :- etrustEvent(@Local, P1, P2, RID, RWeight, RLOC).
+prov_ra_5 prov(@Local, VID, RID, RLOC, Score) :- etrustEvent(@Local, P1, P2, RID, RWeight, RLOC), VID := f_sha1(((((trustEvent+ Local)+ ,)+ P1)+ ,)+ P2), Score := -1.
+prov_r1_1 etrustPathTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List) :- trust(@Local, P1, P2), PID1 := f_sha1(((((trust+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), RLOC := Local, RWeight := 1, R := r1, RID := f_sha1((R+ RLOC)+ List).
+prov_r1_2 ruleExec(@RLOC, RID, RWeight, R, List) :- etrustPathTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List).
+prov_r1_3 etrustPath(@Local, P1, P2, RID, RWeight, RLOC) :- etrustPathTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List).
+prov_r1_4 trustPath(@Local, P1, P2) :- etrustPath(@Local, P1, P2, RID, RWeight, RLOC).
+prov_r1_5 prov(@Local, VID, RID, RLOC, Score) :- etrustPath(@Local, P1, P2, RID, RWeight, RLOC), VID := f_sha1(((((trustPath+ Local)+ ,)+ P1)+ ,)+ P2), Score := -1.
+prov_r2_1 etrustPathTemp(@RLOC, Local, P1, P3, RID, RWeight, R, List) :- trust(@Local, P1, P2), PID1 := f_sha1(((((trust+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), trustPath(@Local, P2, P3), PID2 := f_sha1(((((trustPath+ Local)+ ,)+ P2)+ ,)+ P3), List2 := f_append(PID2), List := f_concat(List, List2), P1 != P3, RLOC := Local, RWeight := 1, R := r2, RID := f_sha1((R+ RLOC)+ List).
+prov_r3_1 emutualTrustPathTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List) :- trustEvent(@Local, P1, P2), PID1 := f_sha1(((((trustEvent+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), trustPath(@Local, P2, P1), PID2 := f_sha1(((((trustPath+ Local)+ ,)+ P2)+ ,)+ P1), List2 := f_append(PID2), List := f_concat(List, List2), RLOC := Local, RWeight := 0.8, R := r3, RID := f_sha1((R+ RLOC)+ List).
+prov_r3_2 ruleExec(@RLOC, RID, RWeight, R, List) :- emutualTrustPathTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List).
+prov_r3_3 emutualTrustPath(@Local, P1, P2, RID, RWeight, RLOC) :- emutualTrustPathTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List).
+prov_r3_4 mutualTrustPath(@Local, P1, P2) :- emutualTrustPath(@Local, P1, P2, RID, RWeight, RLOC).
+prov_r3_5 prov(@Local, VID, RID, RLOC, Score) :- emutualTrustPath(@Local, P1, P2, RID, RWeight, RLOC), VID := f_sha1(((((mutualTrustPath+ Local)+ ,)+ P1)+ ,)+ P2), Score := -1.
+prov_r4_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- trust(@Local, P1, P2), PID1 := f_sha1(((((trust+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((trust+ Local)+ ,)+ P1)+ ,)+ P2), Name := trust, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r4, RID := f_sha1((R+ RLOC)+ List).
+prov_r4_2 ruleExec(@RLOC, RID, RWeight, R, List) :- eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List).
+prov_r4_3 eshaResult(@Local, VID, Content, RID, RWeight, RLOC) :- eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List).
+prov_r4_4 shaResult(@Local, VID, Content) :- eshaResult(@Local, VID, Content, RID, RWeight, RLOC).
+prov_r4_5 prov(@Local, VID, RID, RLOC, Score) :- eshaResult(@Local, VID, Content, RID, RWeight, RLOC), VID := f_sha1(((((shaResult+ Local)+ ,)+ VID)+ ,)+ Content), Score := -1.
+prov_r5_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- trustPath(@Local, P1, P2), PID1 := f_sha1(((((trustPath+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((trustPath+ Local)+ ,)+ P1)+ ,)+ P2), Name := trustPath, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r5, RID := f_sha1((R+ RLOC)+ List).
+prov_r6_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- trustEvent(@Local, P1, P2), PID1 := f_sha1(((((trustEvent+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((trustEvent+ Local)+ ,)+ P1)+ ,)+ P2), Name := trustEvent, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r6, RID := f_sha1((R+ RLOC)+ List).
+prov_r7_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- mutualTrustPath(@Local, P1, P2), PID1 := f_sha1(((((mutualTrustPath+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((mutualTrustPath+ Local)+ ,)+ P1)+ ,)+ P2), Name := mutualTrustPath, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r7, RID := f_sha1((R+ RLOC)+ List).
+prov_edb_1 prov(@Local, VID, RID, RLoc, Score) :- RLoc := Local, trust(@Local, P1, P2), VID := f_sha1(((trust+ Local)+ P1)+ P2), RID := VID, Score := P2.
+prep1 pReturn(@Ret, QID, VID, Prov) :- provQuery(@X, QID, VID, P, Ret), f_size(P) >= 5, shaResult(@X, VID, Content), Prov := Content.
+prep2 pReturn(@Ret, QID, VID, Prov) :- provQuery(@X, QID, VID, P, Ret), f_member(P, VID) > 0, Prov := c.
+prep3 pTempQuery(@X, QID, VID, P, Ret) :- provQuery(@X, QID, VID, P, Ret), f_size(P) < 5, f_member(P, VID) == 0.
+prep4 tempList(@X, QID, VID, P, Ret, LIST< RID >) :- pTempQuery(@X, QID, VID, P, Ret), prov(@X, VID, RID, RLoc, Score), RID != VID.
+edb1 pReturn(@Ret, QID, VID, Prov) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) == 0, shaResult(@X, VID, Content), Prov := Content.
+idb1 pQList(@X, QID, VID, P, List) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0.
+idb2 pResultTmp(@X, QID, Ret, VID, Buf) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0, Buf := f_empty().
+idb3 pIterate(@X, QID, N, Ret) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0, N := 1.
+idb4 pIterate(@X, QID, N, Ret) :- pIterate(@X, QID, N1, Ret), pQList(@X, QID, VID, P, List), N1 < f_size(List), N := N1+ 1.
+idb5 eRuleQuery(@X, NQID, QID, VID, RID, P, Ret) :- pIterate(@X, QID, N, Ret), pQList(@X, QID, VID, P, List), N <= f_size(List), RID := f_item(List, N), NQID := f_sha1((+ QID)+ RID).
+idb6 ruleQuery(@X, QID, RID, P, $1) :- $1 := X, eRuleQuery(@X, QID, OQID, VID, RID, P1, Ret), P2 := f_append(VID), P := f_concat(P1, P2).
+idb7 pResultTmp(@X, QID, Ret, VID, Buf) :- rReturn(@X, NQID, RID, Prov), pResultTmp(@X, QID, Ret, VID, Buf1), NQID == f_sha1((+ QID)+ RID), Buf2 := f_append(Prov), Buf := f_concat(Buf1, Buf2).
+idb8 ePReturn(@X, QID) :- pResultTmp(@X, QID, Ret, VID, Buf), pQList(@X, QID, VID, P, List), f_size(Buf) == f_size(List), f_size(Buf) != 0.
+idb9 pReturn(@Ret, QID, VID, Prov) :- ePReturn(@X, QID), pResultTmp(@X, QID, Ret, VID, Buf), Prov := f_pIDB(Buf, X).
+rv1 rQList(@X, QID, R, RWeight, List, P) :- ruleQuery(@X, QID, RID, P, Ret), ruleExec(@X, RID, RWeight, R, List).
+rv2 rResultTmp(@X, QID, Ret, RID, Buf) :- ruleQuery(@X, QID, RID, P, Ret), Buf := f_empty().
+rv3 rIterate(@X, QID, N) :- ruleQuery(@X, QID, RID, P, Ret), N := 1.
+rv4 rIterate(@X, QID, N) :- rIterate(@X, QID, N1), rQList(@X, QID, R, RWeight, List, P), N1 < f_size(List), N := N1+ 1.
+rv5 eProvQuery(@X, NQID, VID, P) :- rIterate(@X, QID, N), rQList(@X, QID, R, RWeight, List, P), VID := f_item(List, N), NQID := f_sha1((+ QID)+ VID).
+rv6 provQuery(@X, QID, VID, P, $1) :- $1 := X, eProvQuery(@X, QID, VID, P).
+rv7 rResultTmp(@X, QID, Ret, RID, Buf) :- pReturn(@X, NQID, VID, Prov), rResultTmp(@X, QID, Ret, RID, Buf1), NQID == f_sha1((+ QID)+ VID), Buf2 := f_append(Prov), Buf := f_concat(Buf1, Buf2).
+rv8 eRReturn(@X, QID, R, RWeight) :- rResultTmp(@X, QID, Ret, RID, Buf), rQList(@X, QID, R, RWeight, List, P), f_size(Buf) == f_size(List).
+rv9 rReturn(@Ret, QID, RID, Prov) :- eRReturn(@X, QID, R, RWeight), rResultTmp(@X, QID, Ret, RID, Buf), Prov := f_pRULE(Buf, X, R, RWeight).

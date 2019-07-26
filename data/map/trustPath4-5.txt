@@ -1,0 +1,17 @@
+r1 r1 1.0
+r2 r2 1.0
+trust4-13 x1 0.9
+trust13-2 x2 0.6
+trust2-6 x3 0.75
+trust2-13 x6 0.55
+trust2-1 x4 0.9
+trust2-4 x5 0.75
+trust6-2 x7 0.7
+trust1-13 x8 0.65
+trust1-2 x9 0.9
+trust6-5 x10 0.6
+trust1-5 x11 0.7
+trust4-2 x12 0.8
+trustPath4-5 x13 
+trustPath2-5 x14 
+trustPath13-5 x15 

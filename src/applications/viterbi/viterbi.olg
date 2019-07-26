@@ -1,0 +1,19 @@
+materialize(emission,infinity,infinity,keys(1,2:str,3:str,4:real)).
+materialize(transition,infinity,infinity,keys(1,2:str,3:str,4:real)).
+materialize(observation,infinity,infinity,keys(1,2:str,3:int32)).
+materialize(matrixTemp,infinity,infinity,keys(1,2:str,3:str,4:int32,5:real)).
+materialize(maxProb,infinity,infinity,keys(1,2:str,3:str,4:int32,5:real)).
+
+materialize(shaResult,infinity,infinity,keys(1,2:cid,3:str)).
+
+r1 matrixTemp(@X,ST,OB,N,PM) :- transition(@X,ST,ST0,PT), emission(@X,OB,ST,PE), observation(@X,OB,N), ST0=="START", N==1,  PM:=PT*PE.
+r2 matrixTemp(@X,ST1,OB1,N1,PM1) :- matrixTemp(@X,ST0,OB0,N,PM), transition(@X,ST1,ST0,PT), emission(@X,OB1,ST1,PE), observation(@X,OB1,N1), ST0!="START", ST1!="END", N1==N+1, PM1:=PM*PT*PE.
+r3 matrixTemp(@X,ST1,OB1,N1,PM1) :- matrixTemp(@X,ST0,OB0,N,PM), transition(@X,ST1,ST0,PT), observation(@X,OB1,N1), ST1=="END", OB1=="END", N1==N+1, PM1:=PM*PT.
+
+r4 maxProb(@X,ST,OB,N,PM) :- matrixTemp(@X,ST,OB,N,PM), ST=="END", OB=="END".
+
+sr1 shaResult(@X,VID,Content) :- emission(@X,OB,ST,PE), VID:=f_sha1("emission"+X+","+OB+","+ST+","+PE), Name:="emission", Content:=Name+"("+OB+","+ST+","+PE+")".
+sr2 shaResult(@X,VID,Content) :- transition(@X,ST,ST0,PT), VID:=f_sha1("transition"+X+","+ST+","+ST0+","+PT), Name:="transition", Content:=Name+"("+ST+","+ST0+","+PT+")".
+sr3 shaResult(@X,VID,Content) :- observation(@X,OB,N), VID:=f_sha1("observation"+X+","+OB+","+N), Name:="observation", Content:=Name+"("+OB+","+N+")".
+sr4 shaResult(@X,VID,Content) :- matrixTemp(@X,ST,OB,N,PM), VID:=f_sha1("matrixTemp"+X+","+ST+","+OB+","+N+","+PM), Name:="matrixTemp", Content:=Name+"("+ST+","+OB+","+N+","+PM+")".
+sr5 shaResult(@X,VID,Content) :- maxProb(@X,ST,OB,N,PM), VID:=f_sha1("maxProb"+X+","+ST+","+OB+","+N+","+PM), Name:="maxProb", Content:=Name+"("+ST+","+OB+","+N+","+PM+")".

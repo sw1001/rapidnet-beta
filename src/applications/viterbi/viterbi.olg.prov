@@ -1,0 +1,59 @@
+materialize(emission, -1, 0, keys(1, 2, 3, 4)
+materialize(matrixTemp, -1, 0, keys(1, 2, 3, 4, 5)
+materialize(maxProb, -1, 0, keys(1, 2, 3, 4, 5)
+materialize(observation, -1, 0, keys(1, 2, 3)
+materialize(pQList, -1, 0, keys(1, 2)
+materialize(pResultTmp, -1, 0, keys(1, 2)
+materialize(prov, -1, 0, keys(1, 2, 3)
+materialize(rQList, -1, 0, keys(1, 2)
+materialize(rResultTmp, -1, 0, keys(1, 2)
+materialize(ruleExec, -1, 0, keys(1, 2)
+materialize(shaResult, -1, 0, keys(1, 2, 3)
+materialize(transition, -1, 0, keys(1, 2, 3, 4)
+prov_r1_1 ematrixTempTemp(@RLOC, X, ST, OB, N, PM, RID, RWeight, R, List) :- transition(@X, ST, ST0, PT), PID1 := f_sha1(((((((transition+ X)+ ,)+ ST)+ ,)+ ST0)+ ,)+ PT), List := f_append(PID1), emission(@X, OB, ST, PE), PID2 := f_sha1(((((((emission+ X)+ ,)+ OB)+ ,)+ ST)+ ,)+ PE), List2 := f_append(PID2), List := f_concat(List, List2), observation(@X, OB, N), PID3 := f_sha1(((((observation+ X)+ ,)+ OB)+ ,)+ N), List3 := f_append(PID3), List := f_concat(List, List3), ST0 == START, N == 1, PM := PT* PE, RLOC := X, RWeight := 1, R := r1, RID := f_sha1((R+ RLOC)+ List).
+prov_r1_2 ruleExec(@RLOC, RID, RWeight, R, List) :- ematrixTempTemp(@RLOC, X, ST, OB, N, PM, RID, RWeight, R, List).
+prov_r1_3 ematrixTemp(@X, ST, OB, N, PM, RID, RWeight, RLOC) :- ematrixTempTemp(@RLOC, X, ST, OB, N, PM, RID, RWeight, R, List).
+prov_r1_4 matrixTemp(@X, ST, OB, N, PM) :- ematrixTemp(@X, ST, OB, N, PM, RID, RWeight, RLOC).
+prov_r1_5 prov(@X, VID, RID, RLOC, Score) :- ematrixTemp(@X, ST, OB, N, PM, RID, RWeight, RLOC), VID := f_sha1(((((((((matrixTemp+ X)+ ,)+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM), Score := -1.
+prov_r2_1 ematrixTempTemp(@RLOC, X, ST1, OB1, N1, PM1, RID, RWeight, R, List) :- matrixTemp(@X, ST0, OB0, N, PM), PID1 := f_sha1(((((((((matrixTemp+ X)+ ,)+ ST0)+ ,)+ OB0)+ ,)+ N)+ ,)+ PM), List := f_append(PID1), transition(@X, ST1, ST0, PT), PID2 := f_sha1(((((((transition+ X)+ ,)+ ST1)+ ,)+ ST0)+ ,)+ PT), List2 := f_append(PID2), List := f_concat(List, List2), emission(@X, OB1, ST1, PE), PID3 := f_sha1(((((((emission+ X)+ ,)+ OB1)+ ,)+ ST1)+ ,)+ PE), List3 := f_append(PID3), List := f_concat(List, List3), observation(@X, OB1, N1), PID4 := f_sha1(((((observation+ X)+ ,)+ OB1)+ ,)+ N1), List4 := f_append(PID4), List := f_concat(List, List4), ST0 != START, ST1 != END, N1 == N+ 1, PM1 := (PM* PT)* PE, RLOC := X, RWeight := 1, R := r2, RID := f_sha1((R+ RLOC)+ List).
+prov_r3_1 ematrixTempTemp(@RLOC, X, ST1, OB1, N1, PM1, RID, RWeight, R, List) :- matrixTemp(@X, ST0, OB0, N, PM), PID1 := f_sha1(((((((((matrixTemp+ X)+ ,)+ ST0)+ ,)+ OB0)+ ,)+ N)+ ,)+ PM), List := f_append(PID1), transition(@X, ST1, ST0, PT), PID2 := f_sha1(((((((transition+ X)+ ,)+ ST1)+ ,)+ ST0)+ ,)+ PT), List2 := f_append(PID2), List := f_concat(List, List2), observation(@X, OB1, N1), PID3 := f_sha1(((((observation+ X)+ ,)+ OB1)+ ,)+ N1), List3 := f_append(PID3), List := f_concat(List, List3), ST1 == END, OB1 == END, N1 == N+ 1, PM1 := PM* PT, RLOC := X, RWeight := 1, R := r3, RID := f_sha1((R+ RLOC)+ List).
+prov_r4_1 emaxProbTemp(@RLOC, X, ST, OB, N, PM, RID, RWeight, R, List) :- matrixTemp(@X, ST, OB, N, PM), PID1 := f_sha1(((((((((matrixTemp+ X)+ ,)+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM), List := f_append(PID1), ST == END, OB == END, RLOC := X, RWeight := 1, R := r4, RID := f_sha1((R+ RLOC)+ List).
+prov_r4_2 ruleExec(@RLOC, RID, RWeight, R, List) :- emaxProbTemp(@RLOC, X, ST, OB, N, PM, RID, RWeight, R, List).
+prov_r4_3 emaxProb(@X, ST, OB, N, PM, RID, RWeight, RLOC) :- emaxProbTemp(@RLOC, X, ST, OB, N, PM, RID, RWeight, R, List).
+prov_r4_4 maxProb(@X, ST, OB, N, PM) :- emaxProb(@X, ST, OB, N, PM, RID, RWeight, RLOC).
+prov_r4_5 prov(@X, VID, RID, RLOC, Score) :- emaxProb(@X, ST, OB, N, PM, RID, RWeight, RLOC), VID := f_sha1(((((((((maxProb+ X)+ ,)+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM), Score := -1.
+prov_sr1_1 eshaResultTemp(@RLOC, X, VID, Content, RID, RWeight, R, List) :- emission(@X, OB, ST, PE), PID1 := f_sha1(((((((emission+ X)+ ,)+ OB)+ ,)+ ST)+ ,)+ PE), List := f_append(PID1), VID := f_sha1(((((((emission+ X)+ ,)+ OB)+ ,)+ ST)+ ,)+ PE), Name := emission, Content := ((((((Name+ ()+ OB)+ ,)+ ST)+ ,)+ PE)+ ), RLOC := X, RWeight := 1, R := sr1, RID := f_sha1((R+ RLOC)+ List).
+prov_sr1_2 ruleExec(@RLOC, RID, RWeight, R, List) :- eshaResultTemp(@RLOC, X, VID, Content, RID, RWeight, R, List).
+prov_sr1_3 eshaResult(@X, VID, Content, RID, RWeight, RLOC) :- eshaResultTemp(@RLOC, X, VID, Content, RID, RWeight, R, List).
+prov_sr1_4 shaResult(@X, VID, Content) :- eshaResult(@X, VID, Content, RID, RWeight, RLOC).
+prov_sr1_5 prov(@X, VID, RID, RLOC, Score) :- eshaResult(@X, VID, Content, RID, RWeight, RLOC), VID := f_sha1(((((shaResult+ X)+ ,)+ VID)+ ,)+ Content), Score := -1.
+prov_sr2_1 eshaResultTemp(@RLOC, X, VID, Content, RID, RWeight, R, List) :- transition(@X, ST, ST0, PT), PID1 := f_sha1(((((((transition+ X)+ ,)+ ST)+ ,)+ ST0)+ ,)+ PT), List := f_append(PID1), VID := f_sha1(((((((transition+ X)+ ,)+ ST)+ ,)+ ST0)+ ,)+ PT), Name := transition, Content := ((((((Name+ ()+ ST)+ ,)+ ST0)+ ,)+ PT)+ ), RLOC := X, RWeight := 1, R := sr2, RID := f_sha1((R+ RLOC)+ List).
+prov_sr3_1 eshaResultTemp(@RLOC, X, VID, Content, RID, RWeight, R, List) :- observation(@X, OB, N), PID1 := f_sha1(((((observation+ X)+ ,)+ OB)+ ,)+ N), List := f_append(PID1), VID := f_sha1(((((observation+ X)+ ,)+ OB)+ ,)+ N), Name := observation, Content := ((((Name+ ()+ OB)+ ,)+ N)+ ), RLOC := X, RWeight := 1, R := sr3, RID := f_sha1((R+ RLOC)+ List).
+prov_sr4_1 eshaResultTemp(@RLOC, X, VID, Content, RID, RWeight, R, List) :- matrixTemp(@X, ST, OB, N, PM), PID1 := f_sha1(((((((((matrixTemp+ X)+ ,)+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM), List := f_append(PID1), VID := f_sha1(((((((((matrixTemp+ X)+ ,)+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM), Name := matrixTemp, Content := ((((((((Name+ ()+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM)+ ), RLOC := X, RWeight := 1, R := sr4, RID := f_sha1((R+ RLOC)+ List).
+prov_sr5_1 eshaResultTemp(@RLOC, X, VID, Content, RID, RWeight, R, List) :- maxProb(@X, ST, OB, N, PM), PID1 := f_sha1(((((((((maxProb+ X)+ ,)+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM), List := f_append(PID1), VID := f_sha1(((((((((maxProb+ X)+ ,)+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM), Name := maxProb, Content := ((((((((Name+ ()+ ST)+ ,)+ OB)+ ,)+ N)+ ,)+ PM)+ ), RLOC := X, RWeight := 1, R := sr5, RID := f_sha1((R+ RLOC)+ List).
+prov_edb_1 prov(@X, VID, RID, RLoc, Score) :- RLoc := X, emission(@X, OB, ST, PE), VID := f_sha1((((emission+ X)+ OB)+ ST)+ PE), RID := VID, Score := PE.
+prov_edb_2 prov(@X, VID, RID, RLoc, Score) :- RLoc := X, observation(@X, OB, N), VID := f_sha1(((observation+ X)+ OB)+ N), RID := VID, Score := N.
+prov_edb_3 prov(@X, VID, RID, RLoc, Score) :- RLoc := X, transition(@X, ST, ST0, PT), VID := f_sha1((((transition+ X)+ ST)+ ST0)+ PT), RID := VID, Score := PT.
+prep1 pReturn(@Ret, QID, VID, Prov) :- provQuery(@X, QID, VID, P, Ret), f_size(P) >= 15, shaResult(@X, VID, Content), Prov := Content.
+prep2 pReturn(@Ret, QID, VID, Prov) :- provQuery(@X, QID, VID, P, Ret), f_member(P, VID) > 0, Prov := c.
+prep3 pTempQuery(@X, QID, VID, P, Ret) :- provQuery(@X, QID, VID, P, Ret), f_size(P) < 15, f_member(P, VID) == 0.
+prep4 tempList(@X, QID, VID, P, Ret, LIST< RID >) :- pTempQuery(@X, QID, VID, P, Ret), prov(@X, VID, RID, RLoc, Score), RID != VID.
+edb1 pReturn(@Ret, QID, VID, Prov) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) == 0, shaResult(@X, VID, Content), Prov := Content.
+idb1 pQList(@X, QID, VID, P, List) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0.
+idb2 pResultTmp(@X, QID, Ret, VID, Buf) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0, Buf := f_empty().
+idb3 pIterate(@X, QID, N, Ret) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0, N := 1.
+idb4 pIterate(@X, QID, N, Ret) :- pIterate(@X, QID, N1, Ret), pQList(@X, QID, VID, P, List), N1 < f_size(List), N := N1+ 1.
+idb5 eRuleQuery(@X, NQID, QID, VID, RID, P, Ret) :- pIterate(@X, QID, N, Ret), pQList(@X, QID, VID, P, List), N <= f_size(List), RID := f_item(List, N), NQID := f_sha1((+ QID)+ RID).
+idb6 ruleQuery(@X, QID, RID, P, $1) :- $1 := X, eRuleQuery(@X, QID, OQID, VID, RID, P1, Ret), P2 := f_append(VID), P := f_concat(P1, P2).
+idb7 pResultTmp(@X, QID, Ret, VID, Buf) :- rReturn(@X, NQID, RID, Prov), pResultTmp(@X, QID, Ret, VID, Buf1), NQID == f_sha1((+ QID)+ RID), Buf2 := f_append(Prov), Buf := f_concat(Buf1, Buf2).
+idb8 ePReturn(@X, QID) :- pResultTmp(@X, QID, Ret, VID, Buf), pQList(@X, QID, VID, P, List), f_size(Buf) == f_size(List), f_size(Buf) != 0.
+idb9 pReturn(@Ret, QID, VID, Prov) :- ePReturn(@X, QID), pResultTmp(@X, QID, Ret, VID, Buf), Prov := f_pIDB(Buf, X).
+rv1 rQList(@X, QID, R, RWeight, List, P) :- ruleQuery(@X, QID, RID, P, Ret), ruleExec(@X, RID, RWeight, R, List).
+rv2 rResultTmp(@X, QID, Ret, RID, Buf) :- ruleQuery(@X, QID, RID, P, Ret), Buf := f_empty().
+rv3 rIterate(@X, QID, N) :- ruleQuery(@X, QID, RID, P, Ret), N := 1.
+rv4 rIterate(@X, QID, N) :- rIterate(@X, QID, N1), rQList(@X, QID, R, RWeight, List, P), N1 < f_size(List), N := N1+ 1.
+rv5 eProvQuery(@X, NQID, VID, P) :- rIterate(@X, QID, N), rQList(@X, QID, R, RWeight, List, P), VID := f_item(List, N), NQID := f_sha1((+ QID)+ VID).
+rv6 provQuery(@X, QID, VID, P, $1) :- $1 := X, eProvQuery(@X, QID, VID, P).
+rv7 rResultTmp(@X, QID, Ret, RID, Buf) :- pReturn(@X, NQID, VID, Prov), rResultTmp(@X, QID, Ret, RID, Buf1), NQID == f_sha1((+ QID)+ VID), Buf2 := f_append(Prov), Buf := f_concat(Buf1, Buf2).
+rv8 eRReturn(@X, QID, R, RWeight) :- rResultTmp(@X, QID, Ret, RID, Buf), rQList(@X, QID, R, RWeight, List, P), f_size(Buf) == f_size(List).
+rv9 rReturn(@Ret, QID, RID, Prov) :- eRReturn(@X, QID, R, RWeight), rResultTmp(@X, QID, Ret, RID, Buf), Prov := f_pRULE(Buf, X, R, RWeight).
