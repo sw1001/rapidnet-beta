@@ -1,3 +1,6 @@
+# lock-wscript
+.lock-wscript
+
 # Rapidnet test files
 *.pcap
 
