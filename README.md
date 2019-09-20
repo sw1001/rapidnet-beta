@@ -33,7 +33,7 @@ Installation Instructions
 * [Installing on Fedora](https://github.com/powerist/rapidnet/wiki/Installing-on-Fedora-Cluster-Machine)
 
 
-Issue with Building RapidNet on Ubuntu 16.04
+Issue when Building RapidNet on Ubuntu 16.04
 ----------------------------------------------
 
 There is an issue with building rapidnet on Ubuntu 16.04 (and higher). If one tries to build using ./waf An error occurs in the Scripting.py file. To resolve this issue, either change line 190 in Tools/python.py from
