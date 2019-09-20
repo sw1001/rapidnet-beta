@@ -1,0 +1,17 @@
+---trust result (4,p,ns)---
+Sample size: 50
+./data/trust/round2/sample_50.csv
+Start time:0.034474
+
+Queried tuple: 1 4
+Start time:2.73919
+Finish time: 3.52716
+------------------------------------------------
+Sample size: 100
+./data/trust/round2/sample_100.csv
+Start time:0.029206
+
+Queried tuple: 1 2
+Start time:12.6827
+Finish time: 16.685
+------------------------------------------------

@@ -1,620 +1,425 @@
-0.013081
+-------trust results (4,p,ns)-------
+This is the 1 round.
+Sample size: 50
+Total number of edges: 54
+./data/trust/sample_50.csv
+Start time:0.025552
 
-1.3742
-77.5465
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.012927
+Queried tuple: 1 2
+Start time:2.52372
+Finish time: 4.00125
+------------------------------------------------
+Sample size: 100
+Total number of edges: 98
+./data/trust/sample_100.csv
+Start time:0.018477
 
-1.35977
-79.0027
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.013165
+Queried tuple: 1 5
+Start time:11.3046
+Finish time: 17.4724
+------------------------------------------------
+Sample size: 150
+Total number of edges: 146
+./data/trust/sample_150.csv
+Start time:0.03581
 
-1.4052
-78.394
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.012798
+Queried tuple: 1 6
+Start time:36.2294
+Finish time: 48.8631
+------------------------------------------------
+Sample size: 200
+Total number of edges: 197
+./data/trust/sample_200.csv
+Start time:0.034229
 
-1.36531
-75.2524
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.012758
+Queried tuple: 1 2
+Start time:91.9777
+Finish time: 119.498
+------------------------------------------------
+Sample size: 250
+Total number of edges: 247
+./data/trust/sample_250.csv
+Start time:0.019952
 
-1.36392
-76.8242
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.014154
+Queried tuple: 1 2
+Start time:136.472
+------------------------------------------------
+Sample size: 300
+Total number of edges: 305
+./data/trust/sample_300.csv
+Start time:0.025288
 
-1.42024
-76.0249
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.01712
+Queried tuple: 1 2
+Start time:364.513
+------------------------------------------------
+Sample size: 350
+Total number of edges: 350
+./data/trust/sample_350.csv
+Start time:0.032206
 
-1.40367
-76.6781
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.013142
+Queried tuple: 1 2
+Start time:607.332
+------------------------------------------------
+Sample size: 400
+Total number of edges: 398
+./data/trust/sample_400.csv
+Start time:0.03057
 
-1.36418
-78.4527
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.012764
+Queried tuple: 1 2
+Start time:1108.18
+------------------------------------------------
+Sample size: 450
+Total number of edges: 448
+./data/trust/sample_450.csv
+Start time:0.030263
 
-1.37616
-75.1539
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
-0.012749
+Queried tuple: 1 4
+Start time:1134.74
+------------------------------------------------
+Sample size: 500
+Total number of edges: 504
+./data/trust/sample_500.csv
+Start time:0.033642
 
-1.36992
-79.4568
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=1 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=2 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=4 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=7 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=13 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=17 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=23 mutualTrustPath_attr3=29 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=1 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=2 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=4 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=7 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=13 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=17 
-time=5 node=10.1.1.1 tuple=mutualTrustPath mutualTrustPath_attr1=10.1.1.1 mutualTrustPath_attr2=29 mutualTrustPath_attr3=23 
-time=5 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=cedd336d6c2804962368586b6d7315fa69b3e96e records_attr3=184e249a23124438ec6ad6321a17843564564ef records_attr4=(r3@n257((ra@n257(((r2@n257(trust1-13*((r1@n257(trust13-4)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r1@n257(trust13-4)))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r1@n257(trust13-4)))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r1@n257(trust13-4)))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r1@n257(trust13-4))))))))))))))))*((r2@n257(trust4-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))+(r2@n257(trust4-17*(r2@n257(trust17-13*((r1@n257(trust1-31))+(r2@n257(trust13-7*((r2@n257(trust7-29*((r1@n257(trust29-1))))))))+(r2@n257(trust13-29*((r1@n257(trust29-1)))))+(r2@n257(trust1-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))+(r2@n257(trust1-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust1-29*((r2@n257(trust29-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust29-7*((r2@n257(trust7-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))+(r2@n257(trust7-17*(r2@n257(trust17-13*((r2@n257(trust13-2*((r1@n257(trust23-1))))))))))))))))+(r2@n257(trust13-2*((r1@n257(trust2-1))+(r2@n257(trust2-23*((r1@n257(trust23-1)))))))))))))))) 
----------------------------
+Queried tuple: 1 2
+Start time:2991.86
+------------------------------------------------
+This is the 2 round.
+Sample size: 50
+Total number of edges: 52
+./data/trust/sample_50.csv
+Start time:0.024277
+
+Queried tuple: 1 2
+Start time:2.50033
+Finish time: 5.78134
+------------------------------------------------
+Sample size: 100
+Total number of edges: 95
+./data/trust/sample_100.csv
+Start time:0.026113
+
+Queried tuple: 1 2
+Start time:10.8929
+Finish time: 25.4439
+------------------------------------------------
+Sample size: 150
+Total number of edges: 149
+./data/trust/sample_150.csv
+Start time:0.032127
+
+Queried tuple: 1 2
+Start time:33.1465
+Finish time: 44.2981
+------------------------------------------------
+Sample size: 200
+Total number of edges: 199
+./data/trust/sample_200.csv
+Start time:0.029247
+
+Queried tuple: 1 2
+Start time:56.4847
+Finish time: 105.877
+------------------------------------------------
+Sample size: 250
+Total number of edges: 249
+./data/trust/sample_250.csv
+Start time:0.028152
+
+Queried tuple: 1 2
+Start time:196.839
+------------------------------------------------
+Sample size: 300
+Total number of edges: 301
+./data/trust/sample_300.csv
+Start time:0.02654
+
+Queried tuple: 1 2
+Start time:345.6
+------------------------------------------------
+Sample size: 350
+Total number of edges: 353
+./data/trust/sample_350.csv
+Start time:0.033361
+
+Queried tuple: 1 2
+Start time:1073.51
+------------------------------------------------
+Sample size: 400
+Total number of edges: 404
+./data/trust/sample_400.csv
+Start time:0.034533
+
+Queried tuple: 1 2
+Start time:998.007
+------------------------------------------------
+Sample size: 450
+Total number of edges: 448
+./data/trust/sample_450.csv
+Start time:0.018254
+
+Queried tuple: 1 2
+Start time:1507.97
+------------------------------------------------
+Sample size: 500
+Total number of edges: 496
+./data/trust/sample_500.csv
+Start time:0.021118
+
+Queried tuple: 1 2
+Start time:3942.53
+------------------------------------------------
+This is the 3 round.
+Sample size: 50
+Total number of edges: 52
+./data/trust/sample_50.csv
+Start time:0.033183
+
+Queried tuple: 1 2
+Start time:1.91109
+Finish time: 3.78029
+------------------------------------------------
+Sample size: 100
+Total number of edges: 96
+./data/trust/sample_100.csv
+Start time:0.032314
+
+Queried tuple: 1 2
+Start time:14.6475
+Finish time: 19.5034
+------------------------------------------------
+Sample size: 150
+Total number of edges: 155
+./data/trust/sample_150.csv
+Start time:0.031723
+
+Queried tuple: 1 2
+Start time:34.828
+Finish time: 77.9969
+------------------------------------------------
+Sample size: 200
+Total number of edges: 198
+./data/trust/sample_200.csv
+Start time:0.033451
+
+Queried tuple: 1 2
+Start time:76.9542
+------------------------------------------------
+Sample size: 250
+Total number of edges: 250
+./data/trust/sample_250.csv
+Start time:0.031237
+
+Queried tuple: 1 2
+Start time:156.056
+------------------------------------------------
+Sample size: 300
+Total number of edges: 299
+./data/trust/sample_300.csv
+Start time:0.020479
+
+Queried tuple: 1 2
+Start time:344.646
+------------------------------------------------
+Sample size: 350
+Total number of edges: 355
+./data/trust/sample_350.csv
+Start time:0.036117
+
+Queried tuple: 1 2
+Start time:545.63
+------------------------------------------------
+Sample size: 400
+Total number of edges: 397
+./data/trust/sample_400.csv
+Start time:0.032419
+
+Queried tuple: 1 2
+Start time:826.705
+------------------------------------------------
+Sample size: 450
+Total number of edges: 450
+./data/trust/sample_450.csv
+Start time:0.035043
+
+Queried tuple: 1 2
+Start time:2187.26
+------------------------------------------------
+Sample size: 500
+Total number of edges: 495
+./data/trust/sample_500.csv
+Start time:0.032392
+
+Queried tuple: 1 2
+Start time:2911.23
+------------------------------------------------
+This is the 4 round.
+Sample size: 50
+Total number of edges: 55
+./data/trust/sample_50.csv
+Start time:0.017259
+
+Queried tuple: 1 2
+Start time:2.61027
+Finish time: 4.56448
+------------------------------------------------
+Sample size: 100
+Total number of edges: 99
+./data/trust/sample_100.csv
+Start time:0.030201
+
+Queried tuple: 1 2
+Start time:10.7214
+Finish time: 22.7002
+------------------------------------------------
+Sample size: 150
+Total number of edges: 145
+./data/trust/sample_150.csv
+Start time:0.023817
+
+Queried tuple: 1 5
+Start time:23.0378
+Finish time: 28.7637
+------------------------------------------------
+Sample size: 200
+Total number of edges: 197
+./data/trust/sample_200.csv
+Start time:0.035123
+
+Queried tuple: 1 2
+Start time:92.1182
+Finish time: 97.1244
+------------------------------------------------
+Sample size: 250
+Total number of edges: 247
+./data/trust/sample_250.csv
+Start time:0.024837
+
+Queried tuple: 1 2
+Start time:164.938
+------------------------------------------------
+Sample size: 300
+Total number of edges: 303
+./data/trust/sample_300.csv
+Start time:0.033184
+
+Queried tuple: 1 2
+Start time:316.408
+------------------------------------------------
+Sample size: 350
+Total number of edges: 347
+./data/trust/sample_350.csv
+Start time:0.034794
+
+Queried tuple: 1 2
+Start time:588.956
+------------------------------------------------
+Sample size: 400
+Total number of edges: 397
+./data/trust/sample_400.csv
+Start time:0.033411
+
+Queried tuple: 1 2
+Start time:1146.23
+------------------------------------------------
+Sample size: 450
+Total number of edges: 452
+./data/trust/sample_450.csv
+Start time:0.034239
+
+Queried tuple: 1 2
+Start time:1436.82
+------------------------------------------------
+Sample size: 500
+Total number of edges: 505
+./data/trust/sample_500.csv
+Start time:0.032063
+
+Queried tuple: 1 2
+Start time:2865.95
+------------------------------------------------
+This is the 5 round.
+Sample size: 50
+Total number of edges: 45
+./data/trust/sample_50.csv
+Start time:0.026308
+
+Queried tuple: 1 4
+Start time:0.814603
+Finish time: 1.58311
+------------------------------------------------
+Sample size: 100
+Total number of edges: 101
+./data/trust/sample_100.csv
+Start time:0.032126
+
+Queried tuple: 1 2
+Start time:16.4874
+Finish time: 27.1417
+------------------------------------------------
+Sample size: 150
+Total number of edges: 152
+./data/trust/sample_150.csv
+Start time:0.032996
+
+Queried tuple: 1 2
+Start time:32.9625
+Finish time: 51.5406
+------------------------------------------------
+Sample size: 200
+Total number of edges: 197
+./data/trust/sample_200.csv
+Start time:0.022165
+
+Queried tuple: 1 2
+Start time:64.3537
+------------------------------------------------
+Sample size: 250
+Total number of edges: 252
+./data/trust/sample_250.csv
+Start time:0.030193
+
+Queried tuple: 1 2
+Start time:124.392
+Finish time: 181.349
+------------------------------------------------
+Sample size: 300
+Total number of edges: 297
+./data/trust/sample_300.csv
+Start time:0.031892
+
+Queried tuple: 1 2
+Start time:242.277
+------------------------------------------------
+Sample size: 350
+Total number of edges: 346
+./data/trust/sample_350.csv
+Start time:0.029866
+
+Queried tuple: 1 2
+Start time:693.05
+------------------------------------------------
+Sample size: 400
+Total number of edges: 405
+./data/trust/sample_400.csv
+Start time:0.024772
+
+Queried tuple: 1 2
+Start time:749.402
+------------------------------------------------
+Sample size: 450
+Total number of edges: 446
+./data/trust/sample_450.csv
+Start time:0.025062
+
+Queried tuple: 1 2
+Start time:1877.5
+------------------------------------------------
+Sample size: 500
+Total number of edges: 495
+./data/trust/sample_500.csv
+Start time:0.033158
+
+Queried tuple: 1 2
+Start time:2788.38
+------------------------------------------------

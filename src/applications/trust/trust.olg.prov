@@ -5,7 +5,6 @@ materialize(prov, -1, 0, keys(1, 2, 3)
 materialize(rQList, -1, 0, keys(1, 2)
 materialize(rResultTmp, -1, 0, keys(1, 2)
 materialize(ruleExec, -1, 0, keys(1, 2)
-materialize(shaResult, -1, 0, keys(1, 2, 3)
 materialize(trust, -1, 0, keys(1, 2, 3)
 materialize(trustEvent, -1, 0, keys(1, 2, 3)
 materialize(trustPath, -1, 0, keys(1, 2, 3)
@@ -25,20 +24,12 @@ prov_r3_2 ruleExec(@RLOC, RID, RWeight, R, List) :- emutualTrustPathTemp(@RLOC, 
 prov_r3_3 emutualTrustPath(@Local, P1, P2, RID, RWeight, RLOC) :- emutualTrustPathTemp(@RLOC, Local, P1, P2, RID, RWeight, R, List).
 prov_r3_4 mutualTrustPath(@Local, P1, P2) :- emutualTrustPath(@Local, P1, P2, RID, RWeight, RLOC).
 prov_r3_5 prov(@Local, VID, RID, RLOC, Score) :- emutualTrustPath(@Local, P1, P2, RID, RWeight, RLOC), VID := f_sha1(((((mutualTrustPath+ Local)+ ,)+ P1)+ ,)+ P2), Score := -1.
-prov_r4_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- trust(@Local, P1, P2), PID1 := f_sha1(((((trust+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((trust+ Local)+ ,)+ P1)+ ,)+ P2), Name := trust, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r4, RID := f_sha1((R+ RLOC)+ List).
-prov_r4_2 ruleExec(@RLOC, RID, RWeight, R, List) :- eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List).
-prov_r4_3 eshaResult(@Local, VID, Content, RID, RWeight, RLOC) :- eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List).
-prov_r4_4 shaResult(@Local, VID, Content) :- eshaResult(@Local, VID, Content, RID, RWeight, RLOC).
-prov_r4_5 prov(@Local, VID, RID, RLOC, Score) :- eshaResult(@Local, VID, Content, RID, RWeight, RLOC), VID := f_sha1(((((shaResult+ Local)+ ,)+ VID)+ ,)+ Content), Score := -1.
-prov_r5_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- trustPath(@Local, P1, P2), PID1 := f_sha1(((((trustPath+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((trustPath+ Local)+ ,)+ P1)+ ,)+ P2), Name := trustPath, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r5, RID := f_sha1((R+ RLOC)+ List).
-prov_r6_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- trustEvent(@Local, P1, P2), PID1 := f_sha1(((((trustEvent+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((trustEvent+ Local)+ ,)+ P1)+ ,)+ P2), Name := trustEvent, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r6, RID := f_sha1((R+ RLOC)+ List).
-prov_r7_1 eshaResultTemp(@RLOC, Local, VID, Content, RID, RWeight, R, List) :- mutualTrustPath(@Local, P1, P2), PID1 := f_sha1(((((mutualTrustPath+ Local)+ ,)+ P1)+ ,)+ P2), List := f_append(PID1), VID := f_sha1(((((mutualTrustPath+ Local)+ ,)+ P1)+ ,)+ P2), Name := mutualTrustPath, Content := ((Name+ P1)+ -)+ P2, RLOC := Local, RWeight := 1, R := r7, RID := f_sha1((R+ RLOC)+ List).
-prov_edb_1 prov(@Local, VID, RID, RLoc, Score) :- RLoc := Local, trust(@Local, P1, P2), VID := f_sha1(((trust+ Local)+ P1)+ P2), RID := VID, Score := P2.
-prep1 pReturn(@Ret, QID, VID, Prov) :- provQuery(@X, QID, VID, P, Ret), f_size(P) >= 5, shaResult(@X, VID, Content), Prov := Content.
+prov_edb_1 prov(@Local, VID, RID, RLoc, Score) :- RLoc := Local, trust(@Local, P1, P2), VID := f_sha1(((((trust+ Local)+ ,)+ P1)+ ,)+ P2), RID := VID, Score := P2.
+prep1 pReturn(@Ret, QID, VID, Prov) :- provQuery(@X, QID, VID, P, Ret), f_size(P) > 4, Prov := f_pEDB(VID, X).
 prep2 pReturn(@Ret, QID, VID, Prov) :- provQuery(@X, QID, VID, P, Ret), f_member(P, VID) > 0, Prov := c.
-prep3 pTempQuery(@X, QID, VID, P, Ret) :- provQuery(@X, QID, VID, P, Ret), f_size(P) < 5, f_member(P, VID) == 0.
+prep3 pTempQuery(@X, QID, VID, P, Ret) :- provQuery(@X, QID, VID, P, Ret), f_size(P) <= 4, f_member(P, VID) == 0.
 prep4 tempList(@X, QID, VID, P, Ret, LIST< RID >) :- pTempQuery(@X, QID, VID, P, Ret), prov(@X, VID, RID, RLoc, Score), RID != VID.
-edb1 pReturn(@Ret, QID, VID, Prov) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) == 0, shaResult(@X, VID, Content), Prov := Content.
+edb1 pReturn(@Ret, QID, VID, Prov) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) == 0, Prov := f_pEDB(VID, X).
 idb1 pQList(@X, QID, VID, P, List) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0.
 idb2 pResultTmp(@X, QID, Ret, VID, Buf) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0, Buf := f_empty().
 idb3 pIterate(@X, QID, N, Ret) :- tempList(@X, QID, VID, P, Ret, List), f_size(List) != 0, N := 1.

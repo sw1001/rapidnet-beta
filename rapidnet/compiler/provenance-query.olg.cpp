@@ -37,13 +37,15 @@ materialize(pResultTmp,infinity,infinity,keys(1,2:cid)).
 materialize(rResultTmp,infinity,infinity,keys(1,2:cid)).
 /* Querying */
 prep1 pReturn(@Ret,QID,VID,Prov) :- provQuery(@X,QID,VID,P,Ret),
-       f_size(P)>=8,
+       f_size(P)>4,
        // shaResult(@X,VID,Content), Prov:=Content.
-    prov(@X,VID,RID,RLoc,Score), Prov:=f_pEDB(Score,X).
+    // prov(@X,VID,RID,RLoc,Score), 
+    // Prov:=f_pEDB(Score,X).
+    Prov:=f_pEDB(VID,X).
 prep2 pReturn(@Ret,QID,VID,Prov) :- provQuery(@X,QID,VID,P,Ret),
        f_member(P,VID)>0, Prov:="c".
 prep3 pTempQuery(@X,QID,VID,P,Ret) :- provQuery(@X,QID,VID,P,Ret),
-       f_size(P)<8,
+       f_size(P)<=4,
        f_member(P,VID)==0.
 prep4 tempList(@X,QID,VID,P,Ret,a_LIST<RID>) :- pTempQuery(@X,QID,VID,P,Ret),
        prov(@X,VID,RID,RLoc,Score), RID!=VID.
@@ -51,7 +53,9 @@ prep4 tempList(@X,QID,VID,P,Ret,a_LIST<RID>) :- pTempQuery(@X,QID,VID,P,Ret),
 edb1 pReturn(@Ret,QID,VID,Prov) :- tempList(@X,QID,VID,P,Ret,List),
        f_size(List)==0,
     // shaResult(@X,VID,Content), Prov:=Content.
-    prov(@X,VID,RID,RLoc,Score), Prov:=f_pEDB(Score,X).
+    // prov(@X,VID,RID,RLoc,Score),
+    // Prov:=f_pEDB(Score,X).
+    Prov:=f_pEDB(VID,X).
 /* EDB vertex */
 // original edb rule, should change in trust-query
 // edb1 pReturn(@Ret,QID,VID,Prov) :- provQuery(@X,QID,VID,P,Ret),

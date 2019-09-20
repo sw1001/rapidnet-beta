@@ -37,10 +37,6 @@ public:
   static const string EMUTUALTRUSTPATHDELETE;
   static const string EMUTUALTRUSTPATHTEMP;
   static const string EMUTUALTRUSTPATHTEMPDELETE;
-  static const string ESHARESULT;
-  static const string ESHARESULTDELETE;
-  static const string ESHARESULTTEMP;
-  static const string ESHARESULTTEMPDELETE;
   static const string ETRUSTEVENT;
   static const string ETRUSTEVENTDELETE;
   static const string ETRUSTEVENTTEMP;
@@ -63,7 +59,6 @@ public:
   static const string RRETURN;
   static const string RULEEXEC;
   static const string RULEQUERY;
-  static const string SHARESULT;
   static const string TEMPLIST;
   static const string TRUST;
   static const string TRUSTEVENT;
@@ -158,38 +153,6 @@ protected:
   virtual void Prov_r3_5_ecaAdd (Ptr<Tuple> emutualTrustPath);
 
   virtual void Prov_r3_5_ecaDel (Ptr<Tuple> emutualTrustPathDelete);
-
-  virtual void Prov_r4_1Eca0Ins (Ptr<Tuple> trust);
-
-  virtual void Prov_r4_1Eca0Del (Ptr<Tuple> trust);
-
-  virtual void Prov_r4_2_ecaAdd (Ptr<Tuple> eshaResultTemp);
-
-  virtual void Prov_r4_2_ecaDel (Ptr<Tuple> eshaResultTempDelete);
-
-  virtual void Prov_r4_3_ecaAdd (Ptr<Tuple> eshaResultTemp);
-
-  virtual void Prov_r4_3_ecaDel (Ptr<Tuple> eshaResultTempDelete);
-
-  virtual void Prov_r4_4_ecaAdd (Ptr<Tuple> eshaResult);
-
-  virtual void Prov_r4_4_ecaDel (Ptr<Tuple> eshaResultDelete);
-
-  virtual void Prov_r4_5_ecaAdd (Ptr<Tuple> eshaResult);
-
-  virtual void Prov_r4_5_ecaDel (Ptr<Tuple> eshaResultDelete);
-
-  virtual void Prov_r5_1Eca0Ins (Ptr<Tuple> trustPath);
-
-  virtual void Prov_r5_1Eca0Del (Ptr<Tuple> trustPath);
-
-  virtual void Prov_r6_1Eca0Ins (Ptr<Tuple> trustEvent);
-
-  virtual void Prov_r6_1Eca0Del (Ptr<Tuple> trustEvent);
-
-  virtual void Prov_r7_1Eca0Ins (Ptr<Tuple> mutualTrustPath);
-
-  virtual void Prov_r7_1Eca0Del (Ptr<Tuple> mutualTrustPath);
 
   virtual void Prov_edb_1Eca1Ins (Ptr<Tuple> trust);
 

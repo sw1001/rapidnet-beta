@@ -587,10 +587,11 @@ FPRule::Eval(Ptr<Tuple> tuple)
     
     stringstream ss;
     string rule = m_rule->Eval (tuple)->ToString ();
-    uint32_t ipaddr = (rn_ipv4 (m_rloc->Eval (tuple))).Get ();
-    ipaddr = (ipaddr / 256) % 65536;
-    ss << '(' << rule << "@n" << ipaddr << "(";
-  
+    // uint32_t ipaddr = (rn_ipv4 (m_rloc->Eval (tuple))).Get ();
+    // ipaddr = (ipaddr / 256) % 65536;
+    // ss << '(' << rule << "@n" << ipaddr << "(";
+    ss << "(" << rule << "*" << "(";
+
     int index = 0;
     bool valid = true;
 

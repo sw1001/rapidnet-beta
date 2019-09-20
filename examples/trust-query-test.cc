@@ -13,98 +13,8 @@
 #include <map>
 #include <list>
 
-#define TrustTrain \
-"./data/trust/sample.csv"
-
-#define TrustTrain_5 \
-"./data/trust/sample_5.csv"
-
-#define TrustTrain_10 \
-"./data/trust/sample_10.csv"
-
-#define TrustTrain_15 \
-"./data/trust/sample_15.csv"
-
-#define TrustTrain_20 \
-"./data/trust/sample_20.csv"
-
-#define TrustTrain_25 \
-"./data/trust/sample_25.csv"
-
-#define TrustTrain_30 \
-"./data/trust/sample_30.csv"
-
-#define TrustTrain_35 \
-"./data/trust/sample_35.csv"
-
-#define TrustTrain_40 \
-"./data/trust/sample_40.csv"
-
-#define TrustTrain_45 \
-"./data/trust/sample_45.csv"
-
-#define TrustTrain_50 \
-"./data/trust/sample_50.csv"
-
-#define TrustTrain_55 \
-"./data/trust/sample_55.csv"
-
-#define TrustTrain_60 \
-"./data/trust/sample_60.csv"
-
-#define TrustTrain_65 \
-"./data/trust/sample_65.csv"
-
-#define TrustTrain_70 \
-"./data/trust/sample_70.csv"
-
-#define TrustTrain_75 \
-"./data/trust/sample_75.csv"
-
-#define TrustTrain_80 \
-"./data/trust/sample_80.csv"
-
-#define TrustTrain_85 \
-"./data/trust/sample_85.csv"
-
-#define TrustTrain_90 \
-"./data/trust/sample_90.csv"
-
-#define TrustTrain_95 \
-"./data/trust/sample_95.csv"
-
-#define TrustTrain_100 \
-"./data/trust/sample_100.csv"
-
-#define TrustTrain_110 \
-"./data/trust/sample_110.csv"
-
-#define TrustTrain_120 \
-"./data/trust/sample_120.csv"
-
-#define TrustTrain_130 \
-"./data/trust/sample_130.csv"
-
-#define TrustTrain_140 \
-"./data/trust/sample_140.csv"
-
-#define TrustTrain_150 \
-"./data/trust/sample_150.csv"
-
-#define TrustTrain_160 \
-"./data/trust/sample_160.csv"
-
-#define TrustTrain_170 \
-"./data/trust/sample_170.csv"
-
-#define TrustTrain_180 \
-"./data/trust/sample_180.csv"
-
-#define TrustTrain_190 \
-"./data/trust/sample_190.csv"
-
-#define TrustTrain_200 \
-"./data/trust/sample_200.csv"
+#define DataPath \
+"./data/trust/round1/sample_50.csv"
 
 #define trust(local, person1, person2) \
 tuple (Trust::TRUST, \
@@ -180,6 +90,7 @@ vector<string> readFile(string filename){
 		getline(f, s);
 		re.push_back(s);
 	}
+	cout << "Num of edges: " << re.size()-2 << endl;
 	f.close();
 	return re;
 }
@@ -226,11 +137,15 @@ void
 TupleToQuery ()
 {
   Ptr<RapidNetApplicationBase> queryNode = queryapps.Get(0)->GetObject<RapidNetApplicationBase>();
-  inserttuple(1, "mutualTrustPath", 1, 1, 4);
-  // inserttuple(1, "mutualTrustPath", 1, 1, 3);
-  // inserttuple(1, "mutualTrustPath", 1, 1, 4);
-  // inserttuple(1, "mutualTrustPath", 1, 1, 5);
-  // inserttuple(1, "mutualTrustPath", 1, 1, 6);  
+  // pick the top tuple to query. only for performance evaluation 
+  Ptr<RapidNetApplicationBase> app = apps.Get(0)->GetObject<RapidNetApplicationBase>();
+  // refer to rapidnet-script-utils.h/cc PrintRelation
+  map< string, Ptr<TupleAttribute> > attributes = app->GetRelation(Trust::MUTUALTRUSTPATH)->GetAllTuples().front()->GetAllAttributes();
+  string attr2 = attributes["mutualTrustPath_attr2"]->GetValue()->ToString();
+  string attr3 = attributes["mutualTrustPath_attr3"]->GetValue()->ToString();
+  cout<<"Queried tuple: "<<attr2<<" "<<attr3<<endl;
+  inserttuple(1, "mutualTrustPath", 1, atoi(attr2.c_str()), atoi(attr3.c_str()));
+  
 }
 
 void Print(){
@@ -238,20 +153,18 @@ void Print(){
   // PrintRelation(apps, Trust::TRUSTPATH);
   // PrintRelation(apps, Trust::MUTUALTRUSTPATH);
 
-
   // PrintRelation (queryapps, TrustQuery::TUPLE);
-  // cout << "Size of Prov: " << apps.Get(0)->GetRelation(Trust::PROV)->GetAllTuples()->size() << endl;
-  // cout << "Size of RuleExec: " << apps.Get(0)->GetRelation(Trust::RULEEXEC)->GetAllTuples()->size() << endl;
+  // Ptr<RapidNetApplicationBase> app = apps.Get(0)->GetObject<RapidNetApplicationBase>();
+  // cout << "Size of RuleExec: " << app->GetRelation(Trust::RULEEXEC)->GetAllTuples().size() << endl;
   PrintRelation (queryapps, TrustQuery::RECORDS); //modify: add col tuple's vid (hash)
-  cout<<"---------------------------"<<endl;
+  // cout<<"---------------------------"<<endl;
 }
 
 
 void train(){
-	vector<string> trust_train = readFile(TrustTrain_200);
+	vector<string> trust_train = readFile(DataPath);
 	parse(trust_train);
 }
-
 
 
 int main(int argc, char *argv[]){
@@ -262,20 +175,22 @@ int main(int argc, char *argv[]){
     // for (int i=0; i<2; i++){
     //     clock_t t = clock();
 	initApps();
-    
+    cout<<DataPath<<endl;
     apps.Start (Seconds (0.0));
     apps.Stop (Seconds (10.0));
     queryapps.Start (Seconds (0.0));
     queryapps.Stop (Seconds (10.0));
 
-    schedule (1.0, TupleToQuery);	
-    schedule (2.0, train);
-    schedule (5.0, Print);
+    	
+    schedule (1.0, train);
+    schedule (2.0, TupleToQuery);
+    // schedule (5.0, Print);
 
     Simulator::Run ();
     Simulator::Destroy ();
     //     t = clock() -t;
     //     cout <<"Total Time: "<<(double)t/CLOCKS_PER_SEC << endl;
     // }
+    cout<<"------------------------------------------------"<<endl;
   return 0;
 }
