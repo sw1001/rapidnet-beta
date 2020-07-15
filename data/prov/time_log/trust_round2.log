@@ -1,17 +1,89 @@
 ---trust result (4,p,ns)---
 Sample size: 50
 ./data/trust/round2/sample_50.csv
-Start time:0.034474
+Start time:0.029646
+Num of edges: 54
 
 Queried tuple: 1 4
-Start time:2.73919
-Finish time: 3.52716
+Start time:2.64836
+Finish time: 3.40691
 ------------------------------------------------
 Sample size: 100
 ./data/trust/round2/sample_100.csv
-Start time:0.029206
+Start time:0.032633
+Num of edges: 104
 
 Queried tuple: 1 2
-Start time:12.6827
-Finish time: 16.685
+Start time:12.989
+Finish time: 17.0861
+------------------------------------------------
+Sample size: 150
+./data/trust/round2/sample_150.csv
+Start time:0.032884
+Num of edges: 149
+
+Queried tuple: 1 2
+Start time:33.1742
+Finish time: 36.6015
+------------------------------------------------
+Sample size: 200
+./data/trust/round2/sample_200.csv
+Start time:0.031731
+Num of edges: 195
+
+Queried tuple: 1 6
+Start time:83.4519
+Finish time: 90.6496
+------------------------------------------------
+Sample size: 250
+./data/trust/round2/sample_250.csv
+Start time:0.032701
+Num of edges: 254
+
+Queried tuple: 1 2
+Start time:196.189
+Finish time: 214.503
+------------------------------------------------
+Sample size: 300
+./data/trust/round2/sample_300.csv
+Start time:0.033038
+Num of edges: 301
+
+Queried tuple: 1 2
+Start time:425.742
+Finish time: 453.388
+------------------------------------------------
+Sample size: 350
+./data/trust/round2/sample_350.csv
+Start time:0.023794
+Num of edges: 353
+
+Queried tuple: 1 2
+Start time:514.372
+------------------------------------------------
+Sample size: 400
+./data/trust/round2/sample_400.csv
+Start time:0.018425
+Num of edges: 404
+
+Queried tuple: 1 2
+Start time:871.378
+Finish time: 945.475
+------------------------------------------------
+Sample size: 450
+./data/trust/round2/sample_450.csv
+Start time:0.034586
+Num of edges: 447
+
+Queried tuple: 1 2
+Start time:1348.27
+Finish time: 1419.42
+------------------------------------------------
+Sample size: 500
+./data/trust/round2/sample_500.csv
+Start time:0.030584
+Num of edges: 500
+
+Queried tuple: 1 2
+Start time:2105.21
 ------------------------------------------------
